@@ -21,13 +21,13 @@ nav {
 
 
 @media only screen and (min-width: 993px){
-.container{
+.container-custom{
     width: 80%;
 }
 }
 
 @media only screen and (min-width: 601px){
-.container {
+.container-custom {
     width: 95%;
 }
 }

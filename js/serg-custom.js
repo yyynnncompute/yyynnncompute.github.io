@@ -22,12 +22,12 @@ resizeBackground();
 
 
 window.onscroll = function() {
-    if (((window.innerHeight + window.scrollY) >= document.body.offsetHeight) && (window.matchMedia('(max-width: 450px)').matches)) {
-        $("#nav-icon4 span").css({'background': '#ffffff'}); 
+    if (((window.innerHeight + window.scrollY) >= document.body.offsetHeight) && (window.matchMedia('(max-width: 360px)').matches)) {
+         
         $(".btn-floating").css({'transform': 'scale(0)'});
     }
     else{
-        $("#nav-icon4 span").css({'background': '#3e4c5e'});
+        
         $(".btn-floating").css({'transform': 'scale(1)'});
     }
 };
@@ -104,7 +104,7 @@ function showThis() {
 }
 
 $(function () {
-    $("index.html .typetype").typed({
+    $(".typetype").typed({
         strings: ["прибыльные", "красивые", "адаптивные", "продуманные", "недорогие"],
         typeSpeed: 1,
         backSpeed: 5,

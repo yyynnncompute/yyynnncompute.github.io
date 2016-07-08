@@ -670,6 +670,23 @@ text-decoration: none!important
 
 /*HAMBURGER BUTTON*/
 
+#nav-icon4    
+{
+    height: 46px;
+    width: 46px;
+    position: relative;
+    margin: 26px;
+    padding: 12px;
+    background: #3e4c5e;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+        box-shadow: 0px 0px 1px #FFF;
+}
+
+#nav-icon4:hover    
+{transform: scale(1.1)
+}
+
 
 #nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
     z-index: 99999;
@@ -678,7 +695,7 @@ text-decoration: none!important
     height: 2px;
     width: 23px;
     margin: 4px 0px;
-    background: #3e4c5e;
+    background: #fff;
     border-radius: 1px;
     opacity: 1;
   left: 0;
