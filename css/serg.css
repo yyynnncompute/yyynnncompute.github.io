@@ -672,11 +672,11 @@ text-decoration: none!important
 
 #nav-icon4    
 {
-    height: 46px;
-    width: 46px;
+    width: 55.5px;
+    height: 55.5px;
     position: relative;
     margin: 26px;
-    padding: 12px;
+    padding: 17px;
     background: #3e4c5e;
     border-radius: 40px;
     transition: 0.3s ease-in-out;
