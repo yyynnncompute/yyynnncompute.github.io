@@ -565,6 +565,9 @@ text-decoration: none!important
   background: #BEE4FF; /* Gecko Browsers */
 }
 
+.ppp{
+    font-size: 20px;
+}
 
 .content-center {
     text-align: center;
@@ -914,7 +917,9 @@ footer.page-footer .footer-copyright {
 .main-logo {
     top: 11px;
 }
-    
+    .ppp{
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 340px){
@@ -1081,7 +1086,9 @@ footer.page-footer .footer-copyright {
     top: 0;
     left: 0;
     height: 457px;
-    
+        background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(62, 76, 94, 0.16),0 2px 10px 0 rgba(64, 78, 95, 0.17);
 }
 
 .carousel .indicators {
@@ -1133,3 +1140,7 @@ padding: 40px;
 #dataline{
     width: 10vh;
 }
+
+
+
+
