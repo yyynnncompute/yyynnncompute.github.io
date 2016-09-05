@@ -1,16 +1,8 @@
-//var slider = document.getElementById('range-input');
-//  noUiSlider.create(slider, {
-//   start: [20, 50],
-//   connect: true,
-//   step: 1,
-//   range: {
-//     'min': 0,
-//     'max': 100
-//   },
-//   format: wNumb({
-//     decimals: 0
-//   })
-//  });
+$(document).ready(function(){
+      $('.carousel.carousel-slider').carousel({full_width: true,
+                                        indicators: true,
+                                        shift: 0});
+    });
 
 var bg = jQuery("#section1, #section5");
 jQuery(window).resize("resizeBackground");

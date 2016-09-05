@@ -436,14 +436,17 @@ canvas{
     width: 100px;
     height: 100px;
 }
-
+.social-column{
+    
+    padding-left: 0px!important;
+}
 .social-button{
-    padding: 10px;
-width: 6vh;
-transition: 0.3s ease-in-out;
+    padding: 0px 10px 0px 0px;
+width: 4vh;
+transition: 0.2s ease-in-out;
 }
 .social-button:hover{
-transform: scale(1.1)
+transform: scale(1.2, 1.2);
 
 }
 
@@ -618,9 +621,8 @@ text-decoration: none!important
 }
 
 #section5{
-        top: 109px;
      color: #fff!important;
-    height: 100vh;
+    height: 100vh!important;
     text-align: center;
         padding-top: 0rem;
     padding-bottom: 0rem;
@@ -638,6 +640,12 @@ text-decoration: none!important
     background-color: #fff;
     text-align: center;
    
+}
+
+#section9{
+        background: linear-gradient(to bottom, rgba(255,255,255,0) 32%, rgb(255, 255, 255) 100%);
+    min-height: 100%;
+    text-align: center;
 }
 
 .slider .indicators .indicator-item {
@@ -731,7 +739,7 @@ text-decoration: none!important
 
 
 .partners-logo{
-    width: 16vh;
+    width: 14vh;
         margin-bottom: 40px;
     margin-top: 40px;
 
@@ -788,7 +796,7 @@ text-decoration: none!important
 
 
 .font-40px{
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 600
 }
 
@@ -845,6 +853,11 @@ footer.page-footer .footer-copyright {
 }
 }
 @media (max-width: 601px) {
+    
+    .social-column {
+    padding-left: 0.75rem!important;
+}
+    
     .btn-order-div{
         text-align: center
     }
@@ -905,6 +918,9 @@ footer.page-footer .footer-copyright {
 }
 
 @media (max-width: 340px){
+    
+    
+    
 .main-logo {
     top: 9px;
 }
@@ -1061,3 +1077,56 @@ footer.page-footer .footer-copyright {
             animation: heartbeat 1s infinite;
 }
 
+.carousel.carousel-slider {
+    top: 0;
+    left: 0;
+    height: 40vw;
+    
+}
+
+.carousel .indicators {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.carousel .indicators .indicator-item.active {
+    background-color: #3e4c5e;
+}
+.carousel .indicators .indicator-item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 24px 4px;
+    background-color: rgba(62, 76, 94, 0.51);
+    transition: background-color .3s;
+    border-radius: 50%;
+}
+
+.carousel-chip{
+    padding: 0px 0px 0px 0px;
+    border-radius: 50%;
+}
+
+.carousel .carousel-item img {
+    width: 20%;
+}
+
+.carousel .carousel-item { 
+padding: 40px;
+}
+
+#map-overlay{
+        width: 100vw;
+    height: 35vh;
+    z-index: 99;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    pointer-events: none;
+    position: absolute;
+    top: 0px;
+}
