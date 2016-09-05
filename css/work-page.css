@@ -47,3 +47,9 @@ i.right {
 .card .card-title {
     font-weight: 600;
 }
+
+#iframe-card{
+    position: relative;
+    height: 600;
+    width: 90%; 
+}

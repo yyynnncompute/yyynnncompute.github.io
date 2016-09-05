@@ -1,7 +1,11 @@
+
+
+
 $(document).ready(function(){
       $('.carousel.carousel-slider').carousel({full_width: true,
                                         indicators: true,
-                                        shift: 0});
+                                        shift: 0,
+                                              time_constant: 100});
     });
 
 var bg = jQuery("#section1, #section5");

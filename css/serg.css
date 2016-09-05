@@ -1114,7 +1114,7 @@ footer.page-footer .footer-copyright {
 }
 
 .carousel .carousel-item img {
-    width: 20%;
+    max-width: 10%;
 }
 
 .carousel .carousel-item { 
