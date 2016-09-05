@@ -42,7 +42,7 @@ p{
 
 .vectorizm{
         font-weight: 600;
-    font-size: 12px
+    font-size: 11px
 }
 
 .side-nav a:hover {
@@ -140,6 +140,7 @@ p{
     right: 10px;
 }
 nav{
+    width: 100px;
     height: 96px;
     background-color: rgba(255, 255, 255, 0);
     box-shadow: none;
@@ -258,7 +259,7 @@ section
 
 select {
         display: inline-block!important;
-    width: 120px;
+    width: 150px;
         font-size: 15px;
 }
 
@@ -278,6 +279,11 @@ select {
 .cello{
     color: #3e4c5e;
 }
+
+.cello-bg{
+    background-color: #3e4c5e;
+}
+
 .blueish{
    color:  #5ebbff !important;
 }
@@ -292,8 +298,8 @@ select {
 h1
 {
     font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 35px;
+    margin-bottom: 30px;
 }
 h2{
     margin: 15px 0px;
@@ -340,11 +346,14 @@ h6{
 .card-text:hover{
     opacity: 1;
 }
-
+#portfolio-counter{
+font-size: 20px;
+    font-weight: 600;
+}
 .card{
     cursor: pointer;
     overflow: hidden;
-    margin: 0.5rem 0 3rem 0;
+    margin: 3rem 0 3rem 0;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     box-shadow: 0 1px 2px rgba(92, 129, 167, 0.28);
@@ -607,7 +616,14 @@ text-decoration: none!important
     background-color: rgba(255, 255, 255, 0.59);
     padding-top: 0px!important;
 }
+
 #section7{
+    background-color: #fff;
+    text-align: center;
+   
+}
+
+#section8{
     background-color: #fff;
     text-align: center;
    
@@ -672,15 +688,12 @@ text-decoration: none!important
 
 #nav-icon4    
 {
-    width: 55.5px;
-    height: 55.5px;
+    width: 83.5px;
+    height: 80.5px;
     position: relative;
-    margin: 26px;
-    padding: 17px;
-    background: #3e4c5e;
-    border-radius: 40px;
+    margin: 0px;
+    padding: 30px;
     transition: 0.3s ease-in-out;
-        box-shadow: 0px 0px 1px #FFF;
 }
 
 #nav-icon4:hover    
@@ -695,7 +708,7 @@ text-decoration: none!important
     height: 2px;
     width: 23px;
     margin: 4px 0px;
-    background: #fff;
+    background: #3e4c5e;
     border-radius: 1px;
     opacity: 1;
   left: 0;
@@ -705,10 +718,13 @@ text-decoration: none!important
   transition: .25s ease-in-out;
 }
 
-.ham-stripe{
-    
-}
 
+.partners-logo{
+    width: 16vh;
+        margin-bottom: 40px;
+    margin-top: 40px;
+
+}
 
 
 .btn-order-div, .btn-calculator-div{
@@ -793,13 +809,13 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 footer.page-footer {
             z-index: 1;
     margin-top: 0px;
-    padding-top: 20px;
+    padding-top: 1px;
     background-color: #3E4C5E;
     position: relative;
 }
 footer.page-footer .footer-copyright {
     overflow: hidden;
-    height: 175px;
+    height: 60px;
 }
 .modal{
         max-height: 80%;
@@ -863,6 +879,13 @@ footer.page-footer .footer-copyright {
     #fp-nav.right{ right:7px;
     }
 }
+
+@media (max-width: 415px){
+.main-logo {
+    top: 12px;
+}
+}
+
 @media (max-width: 360px){
 .main-logo {
     top: 11px;
@@ -875,7 +898,7 @@ footer.page-footer .footer-copyright {
     top: 9px;
 }
     footer.page-footer .footer-copyright {
-        height: 200px;
+        height: 70px;
     }
 }
 
@@ -1021,6 +1044,9 @@ footer.page-footer .footer-copyright {
 }
 
 .heartbeat{
+        padding-left: 2px;
+        width: 30px;
     -webkit-animation: heartbeat 1s infinite;
             animation: heartbeat 1s infinite;
 }
+

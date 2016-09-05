@@ -16,10 +16,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Vectorizm Webstudio</title>
 
-    <!-- Bootstrap -->
-    
-    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+     <script src="js/emerge.js"></script>
+    <script src="js/typed.min.js"></script>
 <link rel="stylesheet" href="css/font-awesome.min.css">
 <link href="css/materialize.min.css" rel="stylesheet" property='stylesheet'>
 <link href="css/serg.css" rel="stylesheet" property='stylesheet'>
@@ -83,7 +82,7 @@
         </ul>
 
 
-        <a class="btn-floating btn-large waves-effect waves-light coral-bg tooltipped  modal-trigger" data-position="left" data-delay="50" data-tooltip="Закажите звонок" href="#modal1"><i class="material-icons">call</i></a>
+        <a class="btn-floating btn-large waves-effect waves-light coral-bg  modal-trigger" data-position="left" data-delay="50" href="#modal1"><i class="material-icons">call</i></a>
 
     </nav>
 
@@ -139,8 +138,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="col  s12 m12 l6">
-                    <div class="col s6 m6">
+                <div class="col s12 m12 l6">
+                    <div class="col s12 m6">
                         <a href="work-page.html">
                         <div class="card">
 
@@ -160,7 +159,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="col s6 m6">
+                    <div class="col s12 m6">
                         <a href="work-page.html">
                         <div class="card">
 
@@ -183,8 +182,19 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col s12 m12 l12">
+            
+            <div class="portfolio-counter">
+                   <div class="card-panel cello-bg">
+          <span class="white-text">Уже выполнено <span id="portfolio-counter">13</span> заказов
+          </span>
+        </div> 
+                </div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col s12 m12 l6">
-                    <div class="col s6 m6">
+                    <div class="col s12 m6">
                         <a href="work-page.html">
                         <div class="card">
                             <div class="card-text">Персональный сайт адвоката Яниса Юкши</div>
@@ -202,7 +212,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="col s6 m6">
+                    <div class="col s12 m6">
                         <a href="work-page.html">
                         <div class="card">
                             <div class="card-text">Персональный сайт адвоката Яниса Юкши</div>
@@ -211,14 +221,15 @@
                             </div>
                         </div>
                         </a>
-                         <a href="work-page.html">
+                        <a href="work-page.html">
                         <div class="card">
                             <div class="card-text">Персональный сайт адвоката Яниса Юкши</div>
-                            <div class="card-image ">
+                            <div class="card-image">
                                 <img class="activator" src="images/portfolio-thumb-web.png" alt="скриншот-сайта">
                             </div>
                         </div>
                         </a>
+                         
                     </div>
                 </div>
 
@@ -233,6 +244,8 @@
                     </a>
                 </div>
             </div>
+           
+            
 <div class="row">
             <div class="col s12">
                 <div class="btn-order-div">
@@ -240,6 +253,8 @@
                 </div>
             </div>
 </div>
+        
+        
 
         </div>
 
@@ -390,6 +405,24 @@
         </div>
     </section>
     
+    <section class="section valign-wrapper" id="section8">
+       <div class="container valign">
+           <h1>Наши партнеры</h1>
+            <div class="row valign-wrapper">
+            
+            <div class="col s12 m4 l4 valign"><img class="partners-logo" src="http://www.dtln.ru/files/dataline_logo.png" alt=""></div>
+            <div class="col s12 m4 l4 valign"><img class="partners-logo"src="http://comandir.com/upkeep/uploads/2015/08/%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.jpg" alt=""></div>
+            <div class="col s12 m4 l4 valign"><img class="partners-logo"  src="http://images.anandtech.com/doci/7143/MSFT_logo_png_678x452.png" alt=""></div>
+            </div>
+            <div class="row valign-wrapper">
+            <div class="col s12 m4 l4 valign"><img class="partners-logo" src="http://dfo.spr.ru/pages_logotip/2013-11/10078.png" alt=""></div>
+           <div class="col s12 m4 l4 valign"><img class="partners-logo" src="https://regmedia.co.uk/2013/10/17/yandex_cyrillic_logo.jpg" alt=""></div> 
+           <div class="col s12 m4 l4 valign"><img class="partners-logo" src="http://toplogos.ru/images/logo-1c-bitrix.png" alt=""></div> 
+            
+           </div>
+       </div>
+   </section>  
+    
     <section class="section  valign-wrapper" id="section4">
         <div class="container valign">
             <div class="row">
@@ -442,6 +475,8 @@
 
     </section>
 
+    
+    
     <section class="section valign-wrapper" id="section5">
        <div class="valign container">
            <div class="row">
@@ -456,8 +491,9 @@
     <footer class="page-footer" id="foot">
         <div class="container">
             <div class="row">
+               
                 <div class="col s12 m12 s12">
-                    <h2 class="white-text">Мы находимся:</h2>
+                    <h2 class="white-text font-40px">Мы находимся:</h2>
                     <h3 class="white-text">Улица Чертановская<br> Дом 29к1 <br> Офис 208</h3>
                     <h3 class="white-text">c 10:00 до 18:00</h3>
                     <h4 class="font-40px blueish">+7 (916) 48 00 779</h4>
@@ -470,10 +506,10 @@
         <div class="footer-copyright valign-wrapper">
             <div class="container valign">
 <div class="row">
-    <div class="col s12 m12 l5 vectorizm"><i class="fa fa-heart coral heartbeat" aria-hidden="true"></i> Создано с любовью в Vectorizm™ 2016 </div>
+    <div class="col s12 m12 l5 vectorizm"><i class="fa fa-heart coral heartbeat" aria-hidden="true"></i> Создано с любовью в Vectorizm™. 2009-2016 </div>
 
       <div class="col s12 m12 l7">
-       <ul class="footer-menu">
+      <!-- <ul class="footer-menu">
 
                 <li class="menu-item"><a href="index.html" class="menu-link"><span>Главная</span></a></li>
                 <li class="menu-item"><a href="about.html" class="menu-link"><span>О нас</span></a></li>
@@ -482,7 +518,7 @@
                 <li class="menu-item"><a href="prices.html" class="menu-link"><span>Услуги/цены</span></a></li>
                 <li class="menu-item"><a href="all-work-page.html" class="menu-link"><span>Наши работы</span></a></li>
                 <li class="menu-item"><a href="contacts.html" class="menu-link"><span>Контакты</span></a></li>
-            </ul>        
+            </ul>        -->
             </div>
 </div>
        </div>
@@ -545,9 +581,7 @@
 
  
    
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-     <script src="js/emerge.js"></script>
-    <script src="js/typed.min.js"></script>
+     
     
     <script src='https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js'></script>
     <script src="js/materialize.min.js"></script>

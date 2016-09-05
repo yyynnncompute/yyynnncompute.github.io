@@ -1,0 +1,14 @@
+#section2{
+    top:109px;
+        background: -webkit-linear-gradient(top, #ffffff 32%, #e8f2f7 100%);
+        background: linear-gradient(to bottom, #ffffff 32%, #e8f2f7 100%);
+    
+}
+
+#section5{
+    
+}
+p{
+    font-size: 2vh;
+    padding: 20px;
+}
