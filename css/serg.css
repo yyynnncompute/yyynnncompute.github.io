@@ -1130,3 +1130,6 @@ padding: 40px;
     position: absolute;
     top: 0px;
 }
+#dataline{
+    width: 10vh;
+}
