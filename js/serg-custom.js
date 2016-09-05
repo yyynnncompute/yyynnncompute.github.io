@@ -22,7 +22,7 @@ resizeBackground();
 
 
 window.onscroll = function() {
-    if (((window.innerHeight + window.scrollY) >= document.body.offsetHeight) && (window.matchMedia('(max-width: 360px)').matches)) {
+    if (((window.innerHeight + window.scrollY) >= document.body.offsetHeight) && (window.matchMedia('(max-width: 550px)').matches)) {
          
         $(".btn-floating").css({'transform': 'scale(0)'});
     }

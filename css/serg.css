@@ -436,6 +436,17 @@ canvas{
     width: 100px;
     height: 100px;
 }
+
+.social-button{
+    padding: 10px;
+width: 6vh;
+transition: 0.3s ease-in-out;
+}
+.social-button:hover{
+transform: scale(1.1)
+
+}
+
 strong{
     font-weight: 600
 }
@@ -810,7 +821,7 @@ footer.page-footer {
             z-index: 1;
     margin-top: 0px;
     padding-top: 1px;
-    background-color: #3E4C5E;
+    background-color: #5b6a7d;
     position: relative;
 }
 footer.page-footer .footer-copyright {
@@ -873,7 +884,7 @@ footer.page-footer .footer-copyright {
     text-align: center;
     }
     footer.page-footer .footer-copyright {
-        height: 190px;
+        height: 50px;
     }
     
     #fp-nav.right{ right:7px;
