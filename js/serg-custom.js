@@ -1,25 +1,11 @@
 
-$.fn.autoClearfix = function(cfloose) {
-    var candidates = [];
-    $("*", $(this)).filter(function() {
-        return $(this).css("float") != "none" && $(this).siblings().length == $(this).siblings().filter(function() {
-            return $(this).css("float") != "none";
-        }).length && (cfloose ? true : $(this).parent().clone().children().remove().end().text().replace(/(\n|\s)/gm, '') === "");
-    }).parent().each(function() {
-        $(this).addClass("clearfix");
-    });
-};
-
-// Usage
-$(document).ready(function() {
-    $("body").autoClearfix(true);
-});
 
 $(document).ready(function(){
-      $('.carousel.carousel-slider').carousel({full_width: true,
-                                        indicators: true,
-                                        shift: 0,
-                                              time_constant: 100});
+      $('.carousel.carousel-slider').carousel({
+        full_width: true,
+        indicators: true,
+        shift: 0,
+        time_constant: 100});
     });
 
 var bg = jQuery("#section1, #section5");

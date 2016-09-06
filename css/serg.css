@@ -13,7 +13,7 @@ body{
     overflow-x: hidden
 }
 p{
-	margin: 30px 0px;
+	margin: 30px 15px;
 	      font-size: 18px;
     font-weight: 300;
 }
@@ -341,7 +341,7 @@ h6{
     opacity: 0;
     color: #ffffff;
     font-size: 20px;
-    padding: 40vh;
+    padding: 60vh;
 }
 .card-text:hover{
     opacity: 1;
@@ -480,7 +480,7 @@ li{
 
 .main-logo{
     padding: 0px 3px;
-    width: 16vh;
+    width: 19vh;
     position: relative;
     z-index: 1000;
     left: -3px;
@@ -495,9 +495,10 @@ li{
     position: absolute;
     top: 0px;
     left: 0px;
-    pointer-events: none;
+    
 }
-
+.logo-menu:hover,.logo-menu:active{
+background-color: transparent!important;}
 
 .fp-tooltip{
     font-family: 'Open Sans', sans-serif!important;
@@ -695,7 +696,7 @@ text-decoration: none!important
     background: transparent;
     outline: none;
     border: none;
-    color: #ffffff;
+    color: #3e4c5e;
     font-size: 3vh;
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
@@ -710,16 +711,12 @@ text-decoration: none!important
 
 #nav-icon4    
 {
-    width: 83.5px;
-    height: 80.5px;
+    width: 65.5px;
+    height: 83.5px;
     position: relative;
     margin: 0px;
-    padding: 30px;
+    padding: 13px;
     transition: 0.3s ease-in-out;
-}
-
-#nav-icon4:hover    
-{transform: scale(1.1)
 }
 
 
@@ -742,12 +739,20 @@ text-decoration: none!important
 
 
 .partners-logo{
+    filter: grayscale(100%) ;
     width: 14vh;
         margin-bottom: 40px;
     margin-top: 40px;
 
 }
-
+.tint{
+    mix-blend-mode: color;
+    background-color: #eef6ff;
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    z-index: 888;
+}
 
 .btn-order-div, .btn-calculator-div{
         position: relative;
@@ -843,6 +848,12 @@ footer.page-footer .footer-copyright {
         max-height: 80%;
 }
 
+@media (max-width: 1200px){
+.card-text{
+    font-size: 17px;
+}
+}
+
 @media (min-width: 992px){
 
     footer.page-footer .footer-copyright {
@@ -909,22 +920,29 @@ footer.page-footer .footer-copyright {
 
 @media (max-width: 415px){
 .main-logo {
-    top: 12px;
+    top: 4px;
 }
+    .ppp{
+        font-size: 16px;
+    }
+    
+    .social-button {
+    width: 6vh;
+    }
 }
 
 @media (max-width: 360px){
 .main-logo {
     top: 11px;
 }
-    .ppp{
-        font-size: 15px;
-    }
+    
 }
 
 @media (max-width: 340px){
     
-    
+    .ppp{
+        font-size: 15px;
+    }
     
 .main-logo {
     top: 9px;
@@ -1140,7 +1158,9 @@ padding: 40px;
 #dataline{
     width: 10vh;
 }
-
+#bitrix{
+    transform: scale(0.7);
+}
 
 
 

@@ -1,17 +1,20 @@
 #section2{
-    top:109px;
+    top:0px;
     background: linear-gradient(to bottom, #f2f9ff 32%, #e8f2f7 100%);
     padding-top: 0px!important;
 }
 html, body{
     background-color: #f2f9ff
 }
+body{
+        margin-top: 50px;
+}
 
 #section5{
     
 }
 p {
-    font-size: 1.2em;
+    font-size: 1.8em;
     padding: 20px;
 }
 
@@ -19,6 +22,10 @@ nav {
     top: 0px;
 }
 
+#materialbox-overlay {
+    
+    background-color: #3e4c5e;
+}
 
 @media only screen and (min-width: 993px){
 .container-custom{
@@ -52,4 +59,10 @@ i.right {
     position: relative;
     height: 600;
     width: 90%; 
+}
+hr{
+    border: none;
+    background-color: #e5edf7;
+    height: 2px;
+    width: 80%;
 }
