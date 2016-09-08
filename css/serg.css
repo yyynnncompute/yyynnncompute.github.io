@@ -116,6 +116,8 @@ p{
     width: 100vw;
     height: 100vh;
     opacity: 0;
+    -webkit-animation: zoom 50s; /* Chrome, Safari, Opera */
+    animation: zoom 50s;
 }
 
 .canvas-content{
@@ -1160,6 +1162,26 @@ padding: 40px;
 }
 #bitrix{
     transform: scale(0.7);
+}
+
+
+@-webkit-keyframes zoom {
+    from {
+    	-webkit-transform: scale(1,1);
+    }
+    to {
+    	-webkit-transform: scale(1.5,1.5);
+    }
+}
+
+/* Standard syntax */
+@keyframes zoom {
+   from {
+        transform: scale(1,1);
+   }
+   to {
+        transform: scale(1.5,1.5);
+   }
 }
 
 
