@@ -17,7 +17,7 @@ var plane = new THREE.Mesh(planeGeometry, planeMaterial);
 
 plane.rotation.x = -10.5 * Math.PI;
 
-plane.position.set(0, 0, 0);
+plane.position.set(0, 1, 0);
 
 scene.add(plane);
 

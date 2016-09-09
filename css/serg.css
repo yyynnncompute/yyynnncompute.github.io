@@ -18,6 +18,10 @@ p{
     font-weight: 300;
 }
 
+.weight-400{
+    font-weight: 400!important;
+}
+
 .pagination li.active {
     background-color: #5ebbff
 }
@@ -1115,7 +1119,7 @@ footer.page-footer .footer-copyright {
 .carousel.carousel-slider {
     top: 0;
     left: 0;
-    height: 457px!important;
+    height: 44rem!important;
         background-color: #fff;
     border-radius: 3px;
     box-shadow: 0 2px 5px 0 rgba(62, 76, 94, 0.16),0 2px 10px 0 rgba(64, 78, 95, 0.17);
@@ -1155,7 +1159,7 @@ footer.page-footer .footer-copyright {
 }
 
 .carousel .carousel-item { 
-padding: 40px;
+padding: 28px;
 }
 
 #map-overlay{
