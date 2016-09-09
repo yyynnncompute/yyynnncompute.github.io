@@ -100,6 +100,23 @@ function showThis() {
 }
 
 $(function () {
+    $(".typetype2").typed({
+        strings: ["6", "7", "8", "9", "10"],
+        typeSpeed: 9,
+        backSpeed: 5,
+        startDelay: 0,
+        backDelay: 10,
+        loop: true,
+        showCursor: false,
+        preStringTyped: function () {
+            showThis();
+        }
+    });
+
+});
+
+
+$(function () {
     $(".typetype").typed({
         strings: ["прибыльные", "красивые", "адаптивные", "продуманные", "недорогие"],
         typeSpeed: 1,
@@ -201,3 +218,9 @@ window.addEventListener('scroll', function() {
 }, false);
 
 
+
+
+$('.counter').counterUp({
+    delay: 1,
+    time: 700
+});
