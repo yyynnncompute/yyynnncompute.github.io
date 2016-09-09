@@ -175,7 +175,7 @@ google.maps.event.addDomListener(window, 'load', init);
         var mapElement = document.getElementById('mapmap');
         var map = new google.maps.Map(mapElement, mapOptions);
         var locations = [
-['0', 'чертановская 29 к1', '0', '0', '0', 55.61589799999999, 37.59486700000002, 'https://imgh.us/vectorizm-map-marker_4.png']
+            ['ОФИС', 'чертановская 29 к1', 'undefined', 'undefined', 'undefined', 55.61589799999999, 37.59486700000002, 'https://imgh.us/vectorizm-map-marker_4.png']
         ];
         for (i = 0; i < locations.length; i++) {
 			if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
