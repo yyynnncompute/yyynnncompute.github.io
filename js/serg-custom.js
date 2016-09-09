@@ -222,5 +222,5 @@ window.addEventListener('scroll', function() {
 
 $('.counter').counterUp({
     delay: 1,
-    time: 700
+    time: 300
 });
