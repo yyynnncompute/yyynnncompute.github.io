@@ -755,20 +755,12 @@ text-decoration: none!important
 
 
 .partners-logo{
-    filter: grayscale(100%) ;
     width: 14vh;
         margin-bottom: 40px;
     margin-top: 40px;
 
 }
-.tint{
-        mix-blend-mode: screen;
-    background-color: #3e4c5e;
-    width: 100vw;
-    height: 100%;
-    position: absolute;
-    z-index: 888;
-}
+
 
 .btn-order-div, .btn-calculator-div{
         position: relative;
