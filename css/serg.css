@@ -1123,6 +1123,12 @@ footer.page-footer .footer-copyright {
     height: 57rem!important;
 }
 }
+@media (max-width: 370px){
+.carousel.carousel-slider {
+    height: 50rem!important;
+}
+}
+
 .carousel .indicators {
     position: absolute;
     text-align: center;
