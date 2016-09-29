@@ -1227,3 +1227,8 @@ padding: 30PX;
 .card-panel, .card {
     box-shadow: 0 2px 5px 0 rgba(92, 129, 167, 0.28);;
 }
+
+
+.collapsible{
+    box-shadow: 0 2px 5px 0 rgba(92, 129, 167, 0.28);
+}
