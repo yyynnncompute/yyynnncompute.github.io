@@ -1118,16 +1118,19 @@ footer.page-footer .footer-copyright {
     border-radius: 3px;
     box-shadow: 0 2px 5px 0 rgba(62, 76, 94, 0.16),0 2px 10px 0 rgba(64, 78, 95, 0.17);
 }
+
+@media (max-width: 376px){
+.carousel.carousel-slider {
+    height: 50rem!important;
+}
+}
+
 @media (max-width: 360px){
 .carousel.carousel-slider {
     height: 57rem!important;
 }
 }
-@media (max-width: 370px){
-.carousel.carousel-slider {
-    height: 50rem!important;
-}
-}
+
 
 .carousel .indicators {
     position: absolute;
