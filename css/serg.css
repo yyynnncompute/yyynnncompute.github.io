@@ -946,6 +946,8 @@ footer.page-footer .footer-copyright {
 .main-logo {
     top: 11px;
 }
+  .carousel.carousel-slider {
+    height: 57rem!important;
 
 }
 
