@@ -31,9 +31,12 @@ p{
     -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out
 }
-
+#wink{
+    padding: 20px 0px;
+    width: 3rem;
+}
 .fa{
-    color: #3e4c5e; 
+    color: #3e4c5e;
     margin: 0px 10px 0px 0px;
     font-size: 40px;
 }
@@ -56,7 +59,7 @@ p{
     padding-top: 80px;
         z-index: 1;
         width: 40vh;
-    
+
 }
 
 .button-collapse {
@@ -317,7 +320,7 @@ h2{
 }
 h4{    font-weight: 500;
     font-size: 30px
-} 
+}
 
 h3{
         font-weight: 200;
@@ -357,7 +360,7 @@ h6{
 #portfolio-counter{
 font-size: 20px;
     font-weight: 600;
-   
+
     background-color: #2c333e;
     color: #fff;
     border-radius: 3px;
@@ -419,7 +422,7 @@ i.right {
 }
 .collapsible-header i {
     position: absolute;
-    
+
 }
 
 .btn-floating{
@@ -453,7 +456,7 @@ canvas{
     height: 100px;
 }
 .social-column{
-    
+
     padding-left: 0px!important;
 }
 .social-button{
@@ -486,7 +489,7 @@ strong{
 
 .row{
     position: relative;
-        
+
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -507,11 +510,11 @@ li{
 
 .logo-menu
     {
-        
+
     position: absolute;
     top: 0px;
     left: 0px;
-    
+
 }
 .logo-menu:hover,.logo-menu:active{
 background-color: transparent!important;}
@@ -653,13 +656,13 @@ text-decoration: none!important
 #section7{
     background-color: #fff;
     text-align: center;
-   
+
 }
 
 #section8{
     background-color: #fff;
     text-align: center;
-   
+
 }
 
 #section9{
@@ -705,7 +708,7 @@ text-decoration: none!important
     width: 63px;
     display: inline-block;
     position: fixed;
-    
+
     padding: 40px 20px 20px 40px;
     margin: 0px;
     z-index: 1000;
@@ -725,7 +728,7 @@ text-decoration: none!important
 
 /*HAMBURGER BUTTON*/
 
-#nav-icon4    
+#nav-icon4
 {
     width: 65.5px;
     height: 83.5px;
@@ -875,15 +878,15 @@ footer.page-footer .footer-copyright {
 }
 }
 @media (max-width: 601px) {
-    
+
     .social-column {
     padding-left: 0.75rem!important;
 }
-    
+
     .btn-order-div{
         text-align: center
     }
-    
+
     h2{
         font-size: 21px;
     }
@@ -893,7 +896,7 @@ footer.page-footer .footer-copyright {
     .card .card-title {
     font-size: 17px;
     }
-    
+
     .contacts-window{
         margin-top: 30px;
     width: 39vh;
@@ -902,14 +905,14 @@ footer.page-footer .footer-copyright {
     .toggle-button{
         padding: 20px;
     }
-    
+
     .main-logo{
             top: 1.2rem;
         }
     .logo-menu {
         top: 13px;
     }
-    
+
     #section1{
         background: -webkit-linear-gradient(top, rgba(255,255,255,0) 32%, rgb(255, 255, 255) 100%);
         background: linear-gradient(to bottom, rgba(255,255,255,0) 32%, rgb(255, 255, 255) 100%);
@@ -921,7 +924,7 @@ footer.page-footer .footer-copyright {
     footer.page-footer .footer-copyright {
         height: 50px;
     }
-    
+
     #fp-nav.right{ right:7px;
     }
 }
@@ -933,7 +936,7 @@ footer.page-footer .footer-copyright {
     .ppp{
         font-size: 16px;
     }
-    
+
     .social-button {
     width: 6vh;
     }
@@ -943,15 +946,15 @@ footer.page-footer .footer-copyright {
 .main-logo {
     top: 11px;
 }
-    
+
 }
 
 @media (max-width: 340px){
-    
+
     .ppp{
         font-size: 15px;
     }
-    
+
 .main-logo {
     top: 9px;
 }
@@ -1150,7 +1153,7 @@ footer.page-footer .footer-copyright {
     max-width: 10%;
 }
 
-.carousel .carousel-item { 
+.carousel .carousel-item {
 padding: 28px;
 }
 
@@ -1205,7 +1208,7 @@ padding: 28px;
 }
 
 .carousel-item:hover{
-       
+
     color: #3e4c5e!important;
 }
 
