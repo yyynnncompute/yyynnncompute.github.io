@@ -1173,7 +1173,7 @@ padding: 30PX;
         width: 100vw;
     height: 35vh;
     z-index: 99;
-    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to bottom, rgb(242, 249, 255) 0%,rgba(255,255,255,0) 100%);
     pointer-events: none;
     position: absolute;
     top: 0px;
